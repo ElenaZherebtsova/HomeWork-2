@@ -9,10 +9,20 @@ public class Main {
          // Пишем код для задачи 1
         var box = 5;
         System.out.println ("box = " + box);
+
+        box = box / 3;
+        System.out.println ("box = " + box);
+
     }
 
     public static void task2 () {
         System.out.println("Задача 2");
          // Пишем код для задачи 2
+        var weight = 5;
+        System.out.println ("weight = " + weight);
+
+        weight = weight % 3;
+        System.out.println ("остаток = " + weight);
+
     }
 }
